@@ -1,0 +1,57 @@
+input[type="radio"] + label span {
+  transition: background 0.2s, transform 0.2s;
+  background-color: #e5e7eb;
+  border-color: #e5e7eb;
+}
+
+input[type="radio"] + label span:hover,
+input[type="radio"] + label:hover span {
+  transform: scale(1.2);
+  background-color: grey;
+  border-color: grey;
+}
+
+input[type="radio"]:checked + label span {
+  background-color: #af91eb;
+  box-shadow: 0px 0px 0px 2px #af91eb inset;
+}
+
+input[type="radio"]:checked + label {
+  color: black;
+}
+
+/* styling the format of the datepicker container */
+.react-datepicker-wrapper,
+.react-datepicker__input-container,
+.react-datepicker__input-container input {
+  display: block;
+  height: 45px;
+}
+/* styling the dates' colors  */
+.react-datepicker__time-list-item--selected,
+.react-datepicker__day--selected {
+  background-color: #af91eb !important;
+}
+
+.react-calendar {
+  background: #ffff !important;
+
+  width: 350px;
+  max-width: 100%;
+  border: 1px solid #ffff !important;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.125em;
+}
+.react-calendar__tile--active {
+  background: #af91eb !important;
+  color: #ffff !important;
+  border-radius: 50%;
+}
+.react-calendar__tile {
+  font-weight: bold !important;
+}
+
+.react-calendar__month-view__days__day--weekend {
+  color: #0e123e !important;
+  font-weight: bold;
+}
