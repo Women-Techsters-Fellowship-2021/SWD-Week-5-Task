@@ -22,7 +22,7 @@ function ViewShoppingList() {
           </Nav>
         </Col>
         <Col sm={12} md={8}>
-          <h3>My Shopping List</h3>
+          <h3>My TODOs</h3>
           <hr />
           <div className="#view-items">
           {list.map((item,idx) => {

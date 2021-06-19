@@ -69,7 +69,7 @@ function NavBar() {
               ) : (
                 <Nav className="ml-auto">
                   <Nav.Item>
-                    <Link to="/dashboard">My Shopping List |</Link>
+                    <Link to="/dashboard">My Todos |</Link>
                   </Nav.Item>
                   <Nav.Item>
                     <Link to="#" onClick={logout}>
