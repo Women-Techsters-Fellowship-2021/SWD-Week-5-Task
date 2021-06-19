@@ -12,7 +12,8 @@ const TodoList =()=>{
 
     //Checking if user is logged on
     if(context.state.isLoggedIn===false) {
-                history.push('/login');
+        alert("Please Sign in to continue!")
+        history.push('/login');
     }
             
     // Consuming the API to fetch users todo items
@@ -20,8 +21,9 @@ const TodoList =()=>{
  fetch(`https://user-manager-three.vercel.app/api/todo?userId=${context.state.userId}`) 
     .then(res => res.json())
     .then(result => {
-     if(result.error===false){
-          //console.log(result)
+       // console.log(result)
+         if(result.error===false){
+         
      //Sending my dispatch rider....
           context.dispatch({
             type:'SET_TASK',

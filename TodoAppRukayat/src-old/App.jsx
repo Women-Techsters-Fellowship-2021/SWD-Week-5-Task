@@ -39,7 +39,7 @@ function App() {
 						<HomePage />
 					</Route>
 						
-						{/* render Post Component when we hit /task*/}
+						{/* render Post Component when we hit /post*/}
 					 
 						<Route exact path='/tasks'>
 						<TodoList/>
