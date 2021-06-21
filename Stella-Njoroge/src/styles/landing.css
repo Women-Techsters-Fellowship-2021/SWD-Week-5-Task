@@ -1,0 +1,18 @@
+:root{
+  --background-color: #E4ECF4;
+  --white-color: #fff;
+  --dark-color: #20203F;
+}
+
+.landing-page{
+    height: 90vh;
+    background-color: var(--white-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing-page h1{
+    color: var(--dark-color);
+}
