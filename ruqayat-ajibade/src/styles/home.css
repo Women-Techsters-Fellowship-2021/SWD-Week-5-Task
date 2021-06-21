@@ -1,0 +1,10 @@
+.app{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px 15px;
+}
+
+.home-title {
+  color: #15172B;
+}

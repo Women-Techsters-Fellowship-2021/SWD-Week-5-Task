@@ -1,0 +1,43 @@
+body {
+  background-color: ghostwhite;
+  
+}
+
+.login-form-container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 80%;
+}
+.login-form {
+  background-color: ghostwhite;
+  border-radius: 20px;
+  box-sizing: border-box;
+  box-shadow: 0 5px 5px 1px rgb(179, 175, 175);
+  height: 400px;
+  padding: 20px;
+  width: 350px;
+}
+
+.login-title {
+  color: #303245;
+  font-family: sans-serif;
+  font-size: 36px;
+  font-weight: 800;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.input-container {
+  height: 50px;
+  position: relative;
+  width: 100%;
+}
+
+.c1 {
+  margin-top: 40px;
+}
+
+.c2 {
+  margin-top: 20px;
+}

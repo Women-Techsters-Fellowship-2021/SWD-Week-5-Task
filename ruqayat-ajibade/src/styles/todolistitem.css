@@ -1,0 +1,33 @@
+li {
+    list-style-type: none;
+    padding-bottom: 10px;
+
+}
+
+.title{
+    margin-bottom: 10px;
+ 
+}
+
+.completed {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+.btn {
+    margin-right: 5px;
+    margin: 20px 10px;
+	border: 0;
+	box-shadow: 0 2px 2px 1px rgb(179, 175, 175);
+}
+
+.btn:hover{
+    background-color: rgb(209, 208, 208);
+}
+
+.remove{
+	background-color: rgb(253, 72, 72);
+}
+.remove:hover{
+	background-color: rgb(252, 23, 23);
+}
