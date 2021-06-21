@@ -1,0 +1,85 @@
+:root {
+  --background-color: #e4ecf4;
+  --white-color: #fff;
+  --dark-color: #20203f;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-height: 100%;
+  background-color: var(--background-color);
+  font-family: 'Poppins', sans-serif;
+}
+
+.form-container {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  color: var(--dark-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  background-color: var(--white-color);
+  width: 50%;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form label {
+  font-size: 1.25em;
+  margin-bottom: 10px;
+}
+
+.form input {
+  padding: 10px;
+  margin-bottom: 10px;
+  outline: none;
+  border: 2px solid var(--dark-color);
+  border-radius: 10px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1em;
+}
+
+.register-btn{
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: 2px solid var(--dark-color);
+  background-color: var(--dark-color);
+  color: var(--white-color);
+  text-transform: capitalize;
+  outline: none;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 1em;
+  letter-spacing: 1px;
+  margin: 10px 0 15px 0;
+}
+
+.register-btn:hover{
+  background-color: var(--white-color);
+  color: var(--dark-color);
+  transition: 300ms ease-in;
+}
+
+.login-link{
+    text-align: center;
+    color: var(--dark-color);
+}
+
+.login-link:hover{
+    transition: 300ms ease-in;
+    opacity: 0.8;
+}

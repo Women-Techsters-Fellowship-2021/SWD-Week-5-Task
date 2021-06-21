@@ -1,0 +1,25 @@
+:root {
+  --background-color: #e4ecf4;
+  --white-color: #fff;
+  --dark-color: #20203f;
+}
+
+.navbar {
+  height: 10vh;
+  background-color: var(--dark-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: var(--white-color);
+  font-size: 1.25em;
+  margin-right: 3em;
+  cursor: pointer;
+}
+
+.nav-link:hover {
+  opacity: 0.9;
+}
