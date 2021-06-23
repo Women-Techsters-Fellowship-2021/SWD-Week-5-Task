@@ -1,0 +1,41 @@
+ul {
+	list-style-type: none;
+	padding: 0;
+	max-width: 450px;
+	margin: 1em auto;
+}
+
+li {
+	background-color: rgb(141, 133, 134);
+	padding: 0.25rem 1rem;
+	margin-bottom: 1em;
+	max-width: 350px;
+}
+
+
+
+li > .task {
+	margin: 0;
+	margin-bottom: 1rem;
+	
+}
+h2{
+	text-align:center;
+	
+}
+
+li > button.btn {
+	border: 0;
+}
+
+li > button + button {
+	margin-left: 0.75rem;
+}
+
+.remove {
+	background-color: rgb(156, 12, 12);
+}
+
+.edit{
+	
+}
