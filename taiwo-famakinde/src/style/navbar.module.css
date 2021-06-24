@@ -1,0 +1,17 @@
+.navbar {
+	background: black;
+	color: white;
+	margin-bottom: 30px;
+}
+
+.navlink {
+	display: inline;
+	padding: 10px 15px;
+	color: white;
+	cursor: pointer;
+    font-size: inherit;
+}
+
+.navlink:hover {
+	text-decoration: underline;
+}
