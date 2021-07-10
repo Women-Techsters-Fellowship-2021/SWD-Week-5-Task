@@ -1,0 +1,21 @@
+.Home {
+    width: 100%;
+  min-height: 100vh;
+  background-image: url(https://wallpapercave.com/wp/wp6566086.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center left;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  font-size: larger;
+  font-style: normal;
+  
+}
+
+.title {
+  color: rgb(27, 4, 36);
+}
