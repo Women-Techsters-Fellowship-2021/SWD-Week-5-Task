@@ -1,0 +1,33 @@
+.wrapper {
+  background-color: rgb(2, 2, 10);
+  align-self: center;
+  align-items: center;
+  max-width: 100%;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.rap {
+  color: white;
+  font-style: oblique;
+  font-weight: 500;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+
+  align-self: center;
+}
+
+.pin {
+  align-content: center;
+  position: relative;
+}
+
+.tow {
+  align-self: center;
+}
+
+.btn {
+  background-color: blue;
+  margin-top: 10px;
+  padding: 5px;
+  border-color: aliceblue;
+}
